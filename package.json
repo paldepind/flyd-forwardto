@@ -1,0 +1,30 @@
+{
+  "name": "flyd-forwardto",
+  "version": "0.0.1",
+  "description": "Create a new stream that passes all values through a function and forwards them to a target stream.",
+  "main": "forwardto.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "flyd": "^0.1.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paldepind/flyd-forwardto.git"
+  },
+  "keywords": [
+    "flyd",
+    "forwardto"
+  ],
+  "author": "Simon Friis Vindum",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/paldepind/flyd-forwardto/issues"
+  },
+  "homepage": "https://github.com/paldepind/flyd-forwardto#readme"
+}
