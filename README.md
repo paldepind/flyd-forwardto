@@ -18,7 +18,7 @@ var numbers = flyd.stream();
 // And another stream that squares the numbers
 var squaredNumbers = flyd.map(function(n) { return n*n; }, numbers);
 // Add a logger just for show
-flyd.map(function(n) { console.log(n); });
+flyd.map(function(n) { console.log(n); }, squaredNumbers);
 // For some reason we have a lot of string of numbers, but we can't
 // send them down the `numbers` stream. That would wreck havoc in the
 // squaring function. `forwardTo` to the resque!
