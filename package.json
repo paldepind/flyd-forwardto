@@ -1,6 +1,6 @@
 {
   "name": "flyd-forwardto",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Create a new stream that passes all values through a function and forwards them to a target stream.",
   "main": "forwardto.js",
   "directories": {
